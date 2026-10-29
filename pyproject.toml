@@ -1,0 +1,18 @@
+[project]
+name = "comfyui-face-id"
+version = "0.1.0"
+description = "Offline face identity scoring for ComfyUI: is this the same person?"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = ["onnxruntime>=1.16.0"]
+keywords = ["comfyui", "face", "identity", "arcface", "lora"]
+
+[project.urls]
+Homepage = "https://github.com/j7708git/comfyui-face-id"
+
+[tool.comfy]
+# Fill these in before running `comfy node publish` (see registry.comfy.org).
+PublisherId = ""
+DisplayName = "ComfyUI FaceID"
+Icon = ""

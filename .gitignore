@@ -1,0 +1,29 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model weights and datasets must never be committed
+models/
+*.onnx
+*.pth
+*.safetensors
+*.zip
+
+# Local runs and reports
+output/
+*.csv
+*.log
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

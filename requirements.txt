@@ -1,0 +1,4 @@
+# ComfyUI already ships numpy, opencv and torch.
+# onnxruntime is the only extra dependency. If you already have
+# onnxruntime-gpu installed, skip this file - it provides the same module.
+onnxruntime>=1.16.0
